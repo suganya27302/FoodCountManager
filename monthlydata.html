@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="css\dashboard.css"
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="user.html" id="User-Dashboard">User Dashboard</a></li>
+        <li>
+          <a href="monthlydata.html" class="active" id="Monthly-Data"
+            >Monthly Data</a
+          >
+        </li>
+        <li><a href="faredetail.html" id="Fare-details">Fare details</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="profile-button">
+        <img src="/assests/profile-user.png" class="profile-img" />
+      </button>
+      <div class="dropdown-content">
+        <h4 class="username" id="current-username">Suganya</h4>
+        <h4 class="logout">
+          <button class="save-button" onclick="logout()">Logout</button>
+        </h4>
+      </div>
+    </div>
+    <h3 class="appname"><i>CounterF</i></h3>
+    <div class="preferencearea fooddata-container">
+      <div class="filter-style">
+        <div class="dataentry-header foodpreference-header">
+          <h3 class="date-header">Date</h3>
+          <h3>Food preference</h3>
+          <h3>Category</h3>
+        </div>
+        <div class="filter-area">
+          <select
+            id="preference-filter"
+            title="Based On Foodpreference"
+            class="category-select"
+          >
+            <option>None</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+          <select
+            id="category-filter"
+            title="Based On Category"
+            class="category-select"
+          >
+            <option>None</option>
+            <option>Veg</option>
+            <option>Non-Veg</option>
+          </select>
+        </div>
+      </div>
+      <div id="fooddata-container" class="preferencedata"></div>
+    </div>
+  </body>
+  <script src="/javascript/userdata.js"></script>
+  <script src="/javascript/utility.js"></script>
+  <script src="/javascript/monthlydata.js"></script>
+</html>

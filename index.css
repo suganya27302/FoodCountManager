@@ -1,0 +1,72 @@
+.form-conatiner {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  width: 400px;
+  opacity: 0.5;
+  margin: auto;
+  margin-top: 150px;
+}
+#login-button {
+  margin-left: 4em;
+}
+.login-form {
+  font-size: 1.3em;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  height: 11em;
+  justify-content: space-around;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0;
+  background-image: url("/assests/background.jpg");
+  background-size: 100vw 100vh;
+  height: 100%;
+  background-repeat: no-repeat;
+  font-family: system-ui;
+}
+
+.register-inputbox {
+  border-radius: 8px;
+  width: 14em;
+  height: 2em;
+}
+
+.register-submit {
+  font-weight: bold;
+  padding: 10px;
+  width: 80px;
+  margin-left: 1em;
+  text-decoration: none;
+  border-radius: 16px;
+}
+
+.register-submit > a {
+  text-decoration: none;
+  color: black;
+}
+
+.signup-form {
+  height: 15em;
+  width: 10em;
+}
+
+.signup-formcontainer {
+  margin-top: 100px;
+}
+
+.signup-link {
+  font-weight: bold;
+}
+
+.welcome-header {
+  font-size: 2em;
+  font-weight: lighter;
+}

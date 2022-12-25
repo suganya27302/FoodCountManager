@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="css\dashboard.css"
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="user.html" id="User-Dashboard">User Dashboard</a></li>
+        <li><a href="monthlydata.html" id="Monthly-Data">Monthly Data</a></li>
+        <li>
+          <a href="faredetail.html" class="active" id="Fare-details"
+            >Fare details</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="profile-button">
+        <img src="/assests/profile-user.png" class="profile-img" />
+      </button>
+      <div class="dropdown-content">
+        <h4 class="username" id="current-username">Suganya</h4>
+        <h4 class="logout">
+          <button class="save-button" onclick="logout()">Logout</button>
+        </h4>
+      </div>
+    </div>
+
+    <h3 class="appname"><i>CounterF</i></h3>
+    <div class="preferencearea faredata-area">
+      <div class="dataentryofday foodpreference-header">
+        <h3>Category</h3>
+        <h3>Number of Days</h3>
+        <h3>Price</h3>
+      </div>
+      <div class="dataentryofday">
+        <p class="category-name">Veg Food</p>
+        <p id="vegFoodCount">12</p>
+        <p id="vegFoodprice">400</p>
+      </div>
+      <div class="dataentryofday">
+        <p class="category-name">Non-Veg Food</p>
+        <p id="non-vegFoodCount">3</p>
+        <p id="non-vegFoodprice">160</p>
+      </div>
+      <div class="dataentryofday">
+        <p class="category-name">Total</p>
+        <p id="totalFoodCount">15</p>
+        <p id="totalFoodprice">560</p>
+      </div>
+    </div>
+    <div class="info">
+      <h3>Food Price Details</h3>
+      <p>
+        Veg Food per meal<span class="vegfood-price" id="vegfood-price"
+          >- 65rs</span
+        >
+      </p>
+      <p>
+        Non-Veg Food per meal<span
+          class="nonvegfood-price"
+          id="nonvegfood-price"
+          >- 120rs</span
+        >
+      </p>
+    </div>
+  </body>
+  <script src="/javascript/userdata.js"></script>
+  <script src="/javascript/utility.js"></script>
+  <script src="/javascript/faredetail.js"></script>
+</html>

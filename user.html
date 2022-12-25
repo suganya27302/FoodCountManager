@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css"
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li>
+          <a href="user.html" class="active" id="User-Dashboard"
+            >User Dashboard</a
+          >
+        </li>
+        <li><a href="monthlydata.html" id="Monthly-Data">Monthly Data</a></li>
+        <li><a href="faredetail.html" id="Fare-details">Fare details</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="profile-button">
+        <img src="/assests/profile-user.png" class="profile-img" />
+      </button>
+      <div class="dropdown-content">
+        <h4 class="username" id="current-username">Suganya</h4>
+        <h4 class="logout">
+          <button class="save-button" onclick="logout()">Logout</button>
+        </h4>
+      </div>
+    </div>
+    <h3 class="appname"><i>CounterF</i></h3>
+    <div id="foodpreference">
+      <div class="preferencearea" id="foodform">
+        <div class="foodpreference-header">
+          <p>Select the Date</p>
+          <p>Food Preference(specify Yes or No)</p>
+          <p>Select Category</p>
+          <p>Save the data</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <p class="note-style">Saturday and sunday will be holiday!!</p>
+  </body>
+  <script src="javascript/index.js"></script>
+  <script src="javascript/userdata.js"></script>
+  <script src="javascript/user.js"></script>
+  <script src="/javascript/utility.js"></script>
+</html>

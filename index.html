@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CounterF</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="form-conatiner">
+      <h3 class="welcome-header">Welcome to CounterF !</h3>
+      <form class="login-form" onsubmit="isUserValid();return false">
+        <div>
+          <label>Employee ID</label><br />
+          <input
+            type="text"
+            id="login-employeeid"
+            placeholder="1657"
+            class="register-inputbox"
+            required
+          /><br />
+        </div>
+        <div>
+          <label>Password</label><br />
+          <input
+            type="password"
+            id="login-password"
+            class="register-inputbox"
+            placeholder="**********"
+            required
+          /><br />
+        </div>
+        <button type="submit" id="login-button" class="register-submit">
+          Login
+        </button>
+        <a href="/signup.html" class="signup-link">New User?SignUp</a>
+      </form>
+    </div>
+  </body>
+  <script src="/javascript/index.js"></script>
+  <script src="/javascript/userdata.js"></script>
+</html>

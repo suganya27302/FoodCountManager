@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css"
+  </head>
+  <body>
+    <div>
+      <ul>
+        <li><a href="admin.html" class="active">Admin Dashboard</a></li>
+        <li><a href="foodcount.html">FoodCount Data</a></li>
+        <li><a href="faredetailform.html">Fare details</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <button class="profile-button">
+        <img src="/assests/profile-user.png" class="profile-img" />
+      </button>
+      <div class="dropdown-content">
+        <h4 class="username" id="current-username">Suganya</h4>
+        <h4 class="logout">
+          <button class="save-button" onclick="logout()">Logout</button>
+        </h4>
+      </div>
+    </div>
+    <h3 class="appname"><i>CounterF</i></h3>
+    <h2 class="admindashboard-header">Today's Food Count &#128516;</h2>
+    <div class="foodcount-area">
+      <div class="foodcount-container">
+        <h3 class="preference-header">Based on Food Preference</h3>
+        <div class="preference-container">
+          <p class="pricedata" id="yes-count">0</p>
+          <p class="options">YES</p>
+        </div>
+        <div class="preference-container">
+          <p class="pricedata" id="no-count">0</p>
+          <p class="options">NO</p>
+        </div>
+      </div>
+      <div class="foodcount-container">
+        <h3 class="preference-header">Based on Category</h3>
+        <div class="preference-container">
+          <p class="pricedata" id="veg-count">0</p>
+          <p class="options">Veg</p>
+        </div>
+        <div class="preference-container">
+          <p class="pricedata" id="nonveg-count">0</p>
+          <p class="options">Non-Veg</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="/javascript/userdata.js"></script>
+  <script src="/javascript/utility.js"></script>
+  <script src="/javascript/admin.js"></script>
+  <script src="/javascript/admin_utility.js"></script>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CounterF signup</title>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body>
+    <div class="form-conatiner signup-formcontainer">
+      <h3 class="welcome-header">Welcome to CounterF !</h3>
+      <form
+        class="login-form signup-form"
+        onsubmit="validUserDetails();return false"
+      >
+        <div>
+          <label>Username</label><br />
+          <input
+            type="text"
+            id="signup-username"
+            placeholder="Anu"
+            class="register-inputbox"
+            maxlength="10"
+            title="Maximum of 10 characters only"
+            required
+          /><br />
+        </div>
+        <div>
+          <label>Employee ID</label><br />
+          <input
+            type="text"
+            id="signup-employeeid"
+            placeholder="1657"
+            class="register-inputbox"
+            maxlength="4"
+            title="Maximum of 4 characters only ex:1234"
+            required
+          /><br />
+        </div>
+        <div>
+          <label>Password</label><br />
+          <input
+            type="password"
+            id="signup-password"
+            class="register-inputbox"
+            placeholder="**********"
+            required
+          /><br />
+        </div>
+        <div>
+          <label>Confirm Password</label><br />
+          <input
+            type="password"
+            id="signup-confirmpassword"
+            class="register-inputbox"
+            placeholder="**********"
+            required
+          /><br />
+        </div>
+        <div class="button-align">
+          <button type="submit" class="register-submit">Signup</button>
+          <button type="submit" class="register-submit">
+            <a href="index.html">Login</a>
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="/javascript/index.js"></script>
+  <script src="/javascript/userdata.js"></script>
+</html>

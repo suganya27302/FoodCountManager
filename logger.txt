@@ -1,0 +1,57 @@
+
+Wed Dec 21 2022 5:17:05 PM Cannot read properties of undefined (reading 'password') in http://127.0.0.1/login
+Wed Dec 21 2022 5:21:06 PM password is not defined in http://127.0.0.1/login
+Thu Dec 22 2022 1:09:25 PM data[presentUser.CurrentUser.Date].push is not a function in http://127.0.0.1/fetchuserdata
+Thu Dec 22 2022 1:10:21 PM data[presentUser.CurrentUser.Date].push is not a function in http://127.0.0.1/fetchuserdata
+Thu Dec 22 2022 1:10:52 PM data[presentUser.CurrentUser.Date].push is not a function in http://127.0.0.1/fetchuserdata
+Thu Dec 22 2022 1:11:57 PM Cannot read properties of undefined (reading 'push') in http://127.0.0.1/fetchuserdata
+Thu Dec 22 2022 2:28:11 PM Cannot read properties of undefined (reading 'Date') in http://127.0.0.1/fetchuserdata
+Thu Dec 22 2022 2:28:17 PM Cannot read properties of undefined (reading 'Date') in http://127.0.0.1/fetchuserdata
+Thu Dec 22 2022 6:53:58 PM Request body argument values are null in http://127.0.0.1/fetchuserdata
+Thu Dec 22 2022 11:48:07 PM Request body argument values are null in http://127.0.0.1/faredetails
+Fri Dec 23 2022 12:40:13 PM userinfo is not defined in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 12:41:52 PM userinfo is not defined in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 12:42:43 PM userinfo is not defined in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 12:43:14 PM userinfo is not defined in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 12:44:52 PM userinfo is not defined in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 2:15:45 PM Cannot read properties of undefined (reading 'body') in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 2:16:56 PM Cannot read properties of undefined (reading 'body') in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 2:18:04 PM Cannot read properties of undefined (reading 'body') in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 2:19:06 PM Cannot read properties of undefined (reading 'body') in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 2:19:48 PM Cannot read properties of undefined (reading 'body') in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 2:20:18 PM Cannot read properties of undefined (reading 'body') in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 2:22:07 PM data[presentUser.CurrentUser.CurrentUserID].Date.push is not a function in http://127.0.0.1/storeuserdata
+Fri Dec 23 2022 2:43:55 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 2:46:33 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 2:47:37 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 2:49:18 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 2:54:02 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 2:56:44 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 2:58:09 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 2:58:26 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 2:59:33 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 2:59:43 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 3:00:11 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:08:15 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:09:43 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:09:49 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:12:40 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:18:58 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:19:34 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:19:58 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:26:35 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:28:01 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:28:38 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:30:19 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:30:30 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:31:13 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:31:15 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:31:50 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:32:02 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:32:22 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:32:47 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:36:46 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:37:30 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:39:14 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:52:22 PM Request body argument values are null in http://127.0.0.1/storefoodcount
+Fri Dec 23 2022 5:52:32 PM Request body argument values are null in http://127.0.0.1/storefoodcount

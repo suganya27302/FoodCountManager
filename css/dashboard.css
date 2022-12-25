@@ -1,0 +1,409 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.active {
+  background-color: #672367;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #941794;
+  position: sticky;
+  top: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}
+.profile-img {
+  width: 50px;
+  height: 50px;
+  padding-right: 20px;
+}
+.profile-button {
+  float: right;
+  background: transparent;
+  border: none;
+}
+.appname {
+  color: #941794;
+  float: right;
+  padding-right: 20px;
+  font-size: 1.5em;
+}
+.preferencearea {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  margin-top: 5em;
+  box-shadow: 20px 20px 50px grey;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fooddata-container {
+  width: 50%;
+  flex-direction: column;
+  padding-top: 0;
+}
+.save-img {
+  width: 30px;
+  height: 30px;
+}
+.tick-img {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+.preferenceform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  justify-content: space-between;
+}
+.foodpreference-header {
+  justify-content: space-around;
+  background-color: #813081;
+  font-size: 1.2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: sticky;
+}
+
+.formdata {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 83%;
+  padding-top: 10px;
+}
+
+.food-dropdown {
+  width: 120px;
+  height: 70%;
+  height: 27px;
+  border-radius: 10px;
+  text-align: center;
+}
+.dataentry-header {
+  display: flex;
+  width: 100%;
+  height: 3.1em;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.dataentryofday {
+  display: flex;
+  width: 100%;
+  height: 3.1em;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.dataentry {
+  display: flex;
+  width: 100%;
+  height: 3.1em;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.date-header {
+  padding: 5%;
+}
+.faredata-area {
+  width: 60%;
+  margin-right: 30%;
+  flex-direction: column;
+  padding-top: 0;
+}
+.filter-style {
+  display: flex;
+  background-color: #813081;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.filter-area {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 200px;
+  padding-bottom: 5px;
+}
+.category-name {
+  width: 12%;
+}
+.vegfood-price {
+  padding-left: 60px;
+}
+.nonvegfood-price {
+  padding-left: 35px;
+}
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196f3;
+  width: 25%;
+  height: 140px;
+  margin-left: auto;
+  margin-right: 10%;
+  margin-top: 110px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.foodprice-area {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+  height: 250px;
+  margin: auto;
+  margin-top: 10%;
+  box-shadow: 20px 20px 40px grey;
+}
+.foodpriceform-header {
+  padding-left: 6%;
+}
+.foodprice-form {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  align-items: center;
+}
+.vegprice-label {
+  margin-right: 40px;
+}
+.nonvegprice-label {
+  padding-right: 10px;
+}
+.pricedata-inputbox {
+  border-radius: 10px;
+  width: 14em;
+  height: 2em;
+  text-align: center;
+  font-size: medium;
+}
+.save-button {
+  width: 100px;
+  height: 35px;
+  border-radius: 16px;
+  background-color: #be7ebe;
+  font-weight: bold;
+  border: none;
+  align-self: center;
+  font-size: 0.9em;
+}
+
+.dropdown {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+.dropdown-content {
+  display: none;
+  width: 130px;
+  height: 140px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  box-shadow: 20px 20px 40px grey;
+  background-color: #923b92;
+  border-radius: 10px;
+  position: relative;
+  top: 30px;
+  z-index: 1;
+}
+
+.username {
+  padding-left: 25px;
+  font-size: 1.2em;
+  font-style: italic;
+}
+.logout {
+  padding-left: 13px;
+}
+
+.date-style {
+  width: 60%;
+  height: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.note-style {
+  text-align: center;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+  color: #be7ebe;
+}
+
+.preferencedata {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+}
+
+.date-space {
+  width: 160px;
+}
+.foodpreferencetext {
+  width: 60px;
+}
+
+.admindashboard-header {
+  margin-top: 100px;
+  font-size: 2.1em;
+  margin-left: 30px;
+  color: #941794;
+  margin-top: 70px;
+}
+.preference-header {
+  font-size: 1.5em;
+  width: 20%;
+  text-align: center;
+}
+
+.foodcount-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #6e036e;
+  font-weight: bold;
+}
+
+.foodcount-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+  height: 400px;
+  box-shadow: 20px 20px 50px grey;
+  padding: 25px 0px;
+  margin-left: 10em;
+  border-radius: 10px;
+}
+
+.pricedata {
+  color: #111;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.preference-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  width: 22%;
+  height: 175px;
+  box-shadow: 20px 20px 50px grey;
+  border-radius: 10px;
+}
+
+.options {
+  font-size: 1.6em;
+  margin: 0;
+}
+
+.foodcount-header {
+  font-size: 1.8em;
+  text-align: center;
+  color: #941794;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.monthcount-header {
+  background-color: #923b92;
+}
+.monthcount-area {
+  margin-top: 25px;
+  padding-top: 0;
+  height: 380px;
+  flex-direction: column;
+}
+
+.category-count {
+  display: flex;
+  justify-content: space-around;
+}
+
+.category-count > p {
+  width: 25%;
+  text-align: center;
+}
+.dataentry > p {
+  width: 25%;
+  text-align: center;
+}
+.category-select {
+  border-radius: 16px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.dataentryofday:nth-of-type(odd) {
+  background-color: rgb(244, 208, 245);
+}
+
+.dataentryofday:nth-of-type(even) {
+  background-color: #fff;
+}
+
+.category-count:nth-of-type(odd) {
+  background-color: rgb(244, 208, 245);
+}
+
+.category-count:nth-of-type(even) {
+  background-color: #fff;
+}
+
+.dataentry:nth-of-type(odd) {
+  background-color: rgb(244, 208, 245);
+}
+
+.dataentry:nth-of-type(even) {
+  background-color: #fff;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  height: 7px;
+  width: 8px;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #941794;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #672367;
+  border-radius: 5px;
+}
